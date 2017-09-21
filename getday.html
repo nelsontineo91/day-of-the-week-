@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+		
+		<h1 id='today'> Today is</h1>
+	
+	<body>
+		
+		<script type="text/javascript">
+				var daysoftheweek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
+			
+				var getDay = parseInt(prompt('What is todays day?'));
+			
+			switch(new Date().getDay()){
+
+				case 0:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[0]);
+				
+					console.log('Sunday')
+					break;
+
+					case 1:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[1]);
+				
+					console.log('Monday')
+					break;
+
+					case 2:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[2]);
+				
+					console.log('Tuesday')
+					break;
+
+					case 3:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[3]);
+				
+					console.log('Wednesday')
+					break;
+
+					case 4:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[4]);
+				
+					console.log('Thursday')
+					break;
+
+					case 5:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[5]);
+				
+					console.log('Friday')
+					break;
+
+					case 6:
+				
+					document.getElementById('today').
+					innerHTML = ('Today is ' + daysoftheweek[6]);
+				
+					console.log('Saturday')
+					break;
+
+				}					
+
+		</script>
+		
+
+	</body>
+	</html>
